@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'lato'm, 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/img/headerBackImg.jpg);
+	background-size: cover;
+	background-position: center;
+    height: 100vh;
+
+
+}
+
