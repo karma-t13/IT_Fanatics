@@ -1,3 +1,9 @@
+/*
+Orange color #f0932b
+ */
+/*-----------------------*/
+/*------Basic Setup------*/
+/*-----------------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -10,12 +16,112 @@ html {
 	font-size: 20px;
 }
 
+.clr{clear: both;}
+
+/*-----------------------*/
+/*------Reusable Code----*/
+/*-----------------------*/
+.container{
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+/*-----------------------*/
+/*--------Header---------*/
+/*-----------------------*/
 header {
-	background-image: url(../img/backGImg.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/backGImg.jpg);
 	background-size: cover;
 	background-position: center;
     height: 100vh;
 
 
+}
+
+.team-profile{
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	/transform: translate(-10%, 60%);
+}
+
+.logo {
+	float: left;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 60px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #f0932b;
+}
+
+/*-----------------------*/
+/*--------Heading---------*/
+/*-----------------------*/
+h1 {
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 200%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+/*-----------------------*/
+/*--------Buttons---------*/
+/*-----------------------*/
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	text-decoration: none;
+	background-color: #f0932b;
+	border-radius: 200px;
+	color: #fff;
+	transition: background-color 0.2s;
+}
+
+.btn:hover,
+.btn:active{
+	background-color: #e98310;
+}
+
+/*-----------------------*/
+/*--------Body---------*/
+/*-----------------------*/
+
+.test{
+	padding: 500px;
+	
 }
 
