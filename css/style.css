@@ -151,8 +151,10 @@ h1 {
 	font-size: 180%;
 	letter-spacing: 2px;
 	font-weight: 300;
+	text-transform: uppercase;
 	text-align: center;
 	border-bottom: 2px solid #f0932b;
+	
 
 }
 
