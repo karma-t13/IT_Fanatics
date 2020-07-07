@@ -5,12 +5,15 @@ Orange color #f0932b
 /*------Basic Setup------*/
 /*-----------------------*/
 *{
+
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 html {
+	/*width: 100%;
+	margin: auto;*/
 	font-family: 'lato'm, 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -43,14 +46,17 @@ header {
 }
 
 .team-profile{
+	padding-top: 100px;
+	text-align: center;
 	color: #fff;
-	position: absolute;
-	top: 40%;
-	left: 10%;
+	/*position: absolute;
+	  top: 40%;
+	  left: 10%;*/
 	/*transform: translate(-10%, 60%);*/
 }
 
 .logo {
+	margin-left: 20px;
 	float: left;
 }
 
@@ -62,7 +68,7 @@ header {
 
 .main-nav li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
@@ -159,6 +165,7 @@ h1 {
 }
 
 .per-profile {
+	
 	background-color: #edeeee;
 }
 
