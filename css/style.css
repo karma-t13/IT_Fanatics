@@ -5,12 +5,15 @@ Orange color #f0932b
 /*------Basic Setup------*/
 /*-----------------------*/
 *{
+
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 html {
+	/*width: 100%;
+	margin: auto;*/
 	font-family: 'lato'm, 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -43,14 +46,17 @@ header {
 }
 
 .team-profile{
+	padding-top: 100px;
+	text-align: center;
 	color: #fff;
-	position: absolute;
-	top: 40%;
-	left: 10%;
-	/transform: translate(-10%, 60%);
+	/*position: absolute;
+	  top: 40%;
+	  left: 10%;*/
+	/*transform: translate(-10%, 60%);*/
 }
 
 .logo {
+	margin-left: 20px;
 	float: left;
 }
 
@@ -62,7 +68,7 @@ header {
 
 .main-nav li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
@@ -119,9 +125,50 @@ h1 {
 /*-----------------------*/
 /*--------Body---------*/
 /*-----------------------*/
+p{
+	padding: 10px 0;
+}
+.per-info{
+	padding: 20px 20px 0 20px;
+}
 
-.test{
-	padding: 500px;
+.first-row {
+	padding: 20px;
+	width: 50%;
+	float: left;
 	
 }
+.second-row {
+	padding: 20px;
+	width: 50%;
+	float: left;
+	
+}
+
+.prof-art h4 {
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+
+.prof-art h3 {
+	padding-top: 10px;
+	font-weight: 300;
+}
+
+.per-info h2 {
+	font-size: 180%;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 2px solid #f0932b;
+	
+
+}
+
+.per-profile {
+	
+	background-color: #edeeee;
+}
+
 
