@@ -170,6 +170,10 @@ p{
 
 }
 
+#img-align img {
+	padding: 20px;
+}
+
 .per-profile {
 	
 	background-color: #edeeee;
@@ -189,5 +193,6 @@ p{
 .link_body a:active {
 	border-bottom: 2px solid #f0932b;
 }
+
 
 
