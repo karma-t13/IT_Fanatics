@@ -194,5 +194,146 @@ p{
 	border-bottom: 2px solid #f0932b;
 }
 
+.img-align-tech {
+	margin: auto;
+	padding: 20px;
+	float: left;
+}
+/*.img-align-tech a:link,
+.img-align-tech a:visited  {
+	padding: 8px 0;
+	color: #f0932b;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+.img-align-tech a:hover,
+.img-align-tech a:active {
+	border-bottom: 2px solid #f0932b;
+}*/
+/*test code */
+
+.cyber_security_img {
+	float: left;
+    background-image: url(../img/cyber_security.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.cyber_security_img:hover {
+    background-size: 300px;
+    border-bottom: 2px solid #f0932b;
+}
+
+.block_chain_img {
+	float: left;
+    background-image: url(../img/block_chain.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.block_chain_img:hover {
+    background-size: 300px;
+    border-bottom: 2px solid #f0932b;
+}
+
+.machine_learning_img {
+	float: left;
+    background-image: url(../img/machine_learning.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.machine_learning_img:hover {
+    background-size: 300px;
+    border-bottom: 2px solid #f0932b;
+}
+
+.auto_vehicles_img {
+	float: left;
+    background-image: url(../img/auto_vehicles.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.auto_vehicles_img:hover {
+    background-size: 300px;
+    border-bottom: 2px solid #f0932b;
+}
+
+.img-link-text h3 {
+	margin: 20px;
+}
+
+.image_spacing {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
 
 
