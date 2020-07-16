@@ -191,7 +191,7 @@ p{
 }
 .link_body a:hover,
 .link_body a:active {
-	border-bottom: 2px solid #f0932b;
+	
 }
 
 .img-align-tech {
@@ -210,6 +210,20 @@ p{
 	padding: 20px;
 	font-size: 150%;
 	font-weight: 300;
+	
+
+}
+
+/*shor line under h3*/
+.it-tech-format h3:after {
+	display: block;
+	height: 2px;
+	background-color: #f0932b;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
 
 }
 
