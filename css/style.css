@@ -203,6 +203,7 @@ p{
 
 .it-tech-format {
 	font-weight: 300;
+
 	
 	
 }
@@ -235,9 +236,22 @@ p{
 
 }
 
-.it-tech-format ul li {
+.it-tech-format ul {
+	padding-left: 20px;
 
-	list-style: none;
+}
+
+.it-tech-format ul li {
+	list-style: circle;
+
+}
+
+
+ /*format italic on cybersecurity*/
+.cyber-i-center {
+	text-align: center;
+	width: 80%;
+	margin: auto;
 
 }
 
